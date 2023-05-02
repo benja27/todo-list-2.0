@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Refactor awsomebooks project to ES6] <a name="about-project"></a>
+# 📖 [To do list proyect] <a name="about-project"></a>
 
 **[To do list]** is a practice of webpack, ES6, localstorage and git
 
