@@ -7,7 +7,8 @@
     "dev": "webpack --mode development",
     "start": "webpack serve --open --mode development ",
     "css": "npx stylelint \"**/*.{css,scss}\" --fix",
-    "js": "npx eslint . --fix"
+    "js": "npx eslint . --fix",
+    "build": "npm run dev && xcopy dist docs /E /I"
   },
   "keywords": [],
   "author": "",
