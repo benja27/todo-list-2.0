@@ -3,9 +3,6 @@
 import html from './index.html';
 import './index.css';
 
-const esl = html;
-document.getElementById('eslint').innerHTML = esl;
-
 // document.getElementById("esling").
 
 // general variables
@@ -29,6 +26,9 @@ const arrayOfTasks = [
     description: 'third task',
   },
 ];
+
+const esl = html;
+document.getElementById('eslint').innerHTML = esl;
 
 window.addEventListener('DOMContentLoaded', () => {
   container.innerHTML = '';
