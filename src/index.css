@@ -1,4 +1,8 @@
-/* body{
-  background-color: black;
-  color: white;
-} */
+.check,
+.check * {
+  border: 1px solid black;
+}
+
+input[type="text"] {
+  border: none;
+}
