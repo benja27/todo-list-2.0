@@ -36,7 +36,7 @@
 
 # 📖 [Refactor awsomebooks project to ES6] <a name="about-project"></a>
 
-**[Refactor awsomebooks project to ES6]** is a practice of responsive Design and JS DOM manipulation as capstone of the first module
+**[To do list]** is a practice of webpack, ES6, localstorage and git
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,10 +48,10 @@
     <li><a href="https://reactjs.org/">Html</a></li>
   </ul>
   <ul>
-    <li><a href="https://reactjs.org/">JS</a></li>
+    <li><a href="https://reactjs.org/">css</a></li>
   </ul>
   <ul>
-    <li><a href="https://reactjs.org/">classes</a></li>
+    <li><a href="https://reactjs.org/">Bootstrap</a></li>
   </ul>
   <ul>
     <li><a href="https://reactjs.org/">ES6</a></li>
@@ -62,7 +62,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[only use js classes in diferent modules]**
+- **[it is using webpack to create files dinamically]**
 - **[DOM manipularion using JS]**
 - **[Live demo]**
 
@@ -74,7 +74,6 @@
 
 
 - [Live Demo Link](https://benja27.github.io/CapstoneModule1/)
-- [Loom walkthrought Video](https://www.loom.com/share/efa132271014453bbb17fb462cc95999)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,44 +104,26 @@ Clone this repository to your desired folder:
 
 https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
-<!--
-Example commands:
+then go to the file "package.json" and run the following commands:
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+1-npm i
+2-npm dev
+3-npm start
+
 
 ### Install
 
 Install this project with:
 
-it does not requiere instalation.
+Run : npm i on the console
 
-<!--
-Example command:
 
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-Download or clone the repo and double click on the index.html file 
-If you want to modify something you can open the folder with your favorite text editor
-I recomend Visual studio code
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+Run : npm start
 
 ### Run tests
 
@@ -150,13 +131,7 @@ To run tests, run the following command:
 
 N/A
 
-<!--
-Example command:
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
 
 ### Deployment
 
@@ -190,9 +165,9 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[It will accept Bitcoin]**
-- [ ] **[It will be conected to internet]**
-- [ ] **[It will do something amazing]**
+- [ ] **[It will include a external data base]**
+- [ ] **[It will be full responsive]**
+- [ ] **[It will have more pages to do a SPA]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
