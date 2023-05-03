@@ -6,6 +6,9 @@ import { saveToDo } from './modules.js/saveToDo.js';
 import { showDb } from './modules.js/showDb.js';
 import { changeIcons } from './modules.js/changeIcons.js';
 import { deleteItem } from './modules.js/delete.js';
+import { clearList } from './modules.js/clearList.js';
+
+clearList();
 
 // general variables
 
