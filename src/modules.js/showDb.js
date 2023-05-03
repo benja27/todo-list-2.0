@@ -7,7 +7,6 @@ export const showDb = (db) => {
     let check = '';
     if (element.completed) {
       check = 'checked';
-      // ArrayOfActivities[index].style.textDecoration = "line-through";
     }
     container.innerHTML += `         
            <div class="item-itself mb-3">

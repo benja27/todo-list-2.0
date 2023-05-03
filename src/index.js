@@ -20,7 +20,6 @@ form.addEventListener('submit', (e) => {
   if (localStorage.getItem('to-do-list')) {
     index = Array.from(JSON.parse(localStorage.getItem('to-do-list')));
   }
-  // console.log(index.length)
   const item = {
     index: index.length + 1 || index,
     completed: false,
@@ -29,6 +28,7 @@ form.addEventListener('submit', (e) => {
   saveToDo(item);
   form.reset();
   changeIcons();
+  saveDb(JSON.parse(localStorage.getItem('to-do-list')));
 });
 
 const esl = html;
