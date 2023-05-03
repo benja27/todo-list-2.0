@@ -6,3 +6,7 @@
 input[type="text"] {
   border: none;
 }
+
+.fa-solid {
+  cursor: pointer;
+}

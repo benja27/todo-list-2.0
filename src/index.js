@@ -1,56 +1,57 @@
 // imports
-
 import html from './index.html';
 import './index.css';
-
-// document.getElementById("esling").
+import { saveDb } from './modules.js/saveDb.js';
+import { saveToDo } from './modules.js/saveToDo.js';
+import { showDb } from './modules.js/showDb.js';
+import { changeIcons } from './modules.js/changeIcons.js';
+import { deleteItem } from './modules.js/delete.js';
 
 // general variables
 
 const container = document.getElementById('list-item-container');
+const form = document.getElementById('form');
+const newTodo = document.getElementById('new-todo');
 
-const arrayOfTasks = [
-  {
-    index: 0,
+// event listener
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  let index = 1;
+  if (localStorage.getItem('to-do-list')) {
+    index = Array.from(JSON.parse(localStorage.getItem('to-do-list')));
+  }
+  // console.log(index.length)
+  const item = {
+    index: index.length + 1 || index,
     completed: false,
-    description: 'first task',
-  },
-  {
-    index: 1,
-    completed: false,
-    description: 'second task',
-  },
-  {
-    index: 2,
-    completed: false,
-    description: 'third task',
-  },
-];
+    activity: newTodo.value,
+  };
+  saveToDo(item);
+  form.reset();
+  changeIcons();
+});
 
 const esl = html;
 document.getElementById('eslint').innerHTML = esl;
 
 window.addEventListener('DOMContentLoaded', () => {
-  container.innerHTML = '';
+  changeIcons();
+  if (localStorage.getItem('to-do-list')) {
+    showDb(JSON.parse(localStorage.getItem('to-do-list')));
+    changeIcons();
+  }
+});
 
-  arrayOfTasks.forEach((element) => {
-    container.innerHTML += `
-       <div class="item-itself mb-3">
+container.addEventListener('click', (e) => {
+  if (e.target.classList.contains('form-check-input')) {
+    const { id } = e.target.dataset;
+    const db = JSON.parse(localStorage.getItem('to-do-list'));
+    db[id].completed = !db[id].completed;
+    saveDb(db);
+  }
 
-            <div class="form-check d-flex justify-content-between align-items-center ">
-
-              <input class="form-check-input" type="checkbox" value="" id="">
-
-              <span class="flex-grow-1 px-2">
-                <input type="text" class="form-control" name="" id="" aria-describedby="helpId"
-                  value="${element.description}" placeholder="">
-              </span>
-
-              <span>
-                <i class="fa-solid fa-ellipsis-vertical"></i>
-              </span>
-            </div>
-          </div>
-    `;
-  });
+  if (e.target.classList.contains('fa-trash')) {
+    const { id } = e.target.dataset;
+    deleteItem(id);
+  }
 });
