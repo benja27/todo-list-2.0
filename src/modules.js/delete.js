@@ -8,3 +8,4 @@ export const deleteItem = (index) => {
 };
 
 export default deleteItem;
+module.exports = deleteItem;
