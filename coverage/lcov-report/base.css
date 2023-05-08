@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  font-family: Helvetica Neue, Helvetica, Arial;
+  font-family: Helvetica, Helvetica, Arial;
   font-size: 14px;
   color: #333;
 }
@@ -19,8 +19,13 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-h1 { font-size: 20px; margin: 0; }
-h2 { font-size: 14px; }
+h1 { 
+  font-size: 20px; margin: 0; 
+}
+
+h2 { 
+  font-size: 14px; 
+}
 
 pre {
   font: 12px/1.4 Consolas, "Liberation Mono", Menlo, Courier, monospace;
