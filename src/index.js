@@ -10,8 +10,6 @@ import { clearList } from './modules.js/clearList.js';
 
 clearList();
 
-
-
 const container = document.getElementById('list-item-container');
 const form = document.getElementById('form');
 const newTodo = document.getElementById('new-todo');
