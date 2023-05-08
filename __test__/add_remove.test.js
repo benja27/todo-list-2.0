@@ -4,7 +4,7 @@
 const add = require('../src/modules.js/saveToDo.js');
 const remove = require('../src/modules.js/delete.js');
 
-describe('vamos a ver si hace algo esta shit', () => {
+describe('testing both add and remove functions', () => {
   beforeEach(() => {
     document.body.innerHTML = `
     <form class="mb-3" id="form">
@@ -15,7 +15,7 @@ describe('vamos a ver si hace algo esta shit', () => {
     </div> `;
   });
 
-  test('checa si se crea un objeto dom', () => {
+  test('check if a new element is added', () => {
     const item = {
       actividad: 'buy groseries',
       estatus: false,
@@ -25,7 +25,7 @@ describe('vamos a ver si hace algo esta shit', () => {
     add(item);
   });
 
-  test('check if remove the proper element', () => {
+  test('check if it removes the proper element', () => {
     remove(1);
   });
 });
