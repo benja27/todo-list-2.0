@@ -10,7 +10,7 @@ import { clearList } from './modules.js/clearList.js';
 
 clearList();
 
-// general variables
+
 
 const container = document.getElementById('list-item-container');
 const form = document.getElementById('form');
