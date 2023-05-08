@@ -234,7 +234,6 @@ table.coverage td span.cline-any {
   background: #c21f39 !important;
 }
 
-
 /* light red */
 .low,
 .cline-no { background: #fce1e5; }
