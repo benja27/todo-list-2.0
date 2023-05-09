@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-import { clearList } from '../src/modules.js/clearList';
+import { checkComplete, clearList } from '../src/modules.js/clearList';
 
 describe('testing both check and update functions', () => {
     beforeEach(() => {
@@ -20,11 +20,21 @@ describe('testing both check and update functions', () => {
     
         itemContainer.innerHTML = '';
       });
+    
     const numberOfChildren = document.querySelector('#list-item-container').children;
-
+    // Test checkComplete function
+    // User describe as requirement
+    describe('checkComplete', () => {
+      it('should change checked completed status', () => {
+        checkComplete();
+        expect(numberOfChildren[0]).toEqual(true);
+        expect(numberOfChildren[2]).toEqual(true);
+      });
+    });
     // Test clearCompleted function
+    // User describe as requirement
     describe('clearCompleted', () => {
-        it('should remove completed tasks from local storage', () => {
+        it('should remove completed tasks from checked', () => {
           // Call the function and verify local storage update
           clearList();
           expect(numberOfChildren[0]).toBeNull();
