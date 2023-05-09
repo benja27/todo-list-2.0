@@ -39,18 +39,21 @@ describe('testing both add and remove functions', () => {
   });
 
   test('check if it removes the proper element', () => {
+    // creates a fake item
     const item = {
       actividad: 'buy groseries',
       estatus: false,
       index: 1,
     };
 
+    // we add an item and remove it right away
     saveToDo(item);
     deleteItem(0);
 
-    // Check if an element with the expected text content was added to the DOM
-    const addedItem = document.querySelector('#list-item-container').children;
+    // Check if the number of children of "item-container" is equal to 0
+    const numberOfChildren = document.querySelector('#list-item-container').children;
 
-    expect(addedItem).toHaveLength(0);
+    // testing if the length of numberOfChildren is equal to 0
+    expect(numberOfChildren).toHaveLength(0);
   });
 });
