@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <coverage generated="1683641733700" clover="3.2.0">
   <project timestamp="1683641733700" name="All files">
+<coverage generated="1683586653684" clover="3.2.0">
+  <project timestamp="1683586653684" name="All files">
     <metrics statements="45" coveredstatements="32" conditionals="6" coveredconditionals="3" methods="12" coveredmethods="9" elements="63" coveredelements="44" complexity="0" loc="45" ncloc="45" packages="1" files="5" classes="5"/>
-    <file name="changeIcons.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\changeIcons.js">
+    <file name="changeIcons.js" path="/Users/max/Documents/GitHub/todo-list-2.0/src/modules.js/changeIcons.js">
       <metrics statements="14" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="2" type="stmt"/>
@@ -19,7 +21,7 @@
       <line num="16" count="0" type="stmt"/>
       <line num="17" count="0" type="stmt"/>
     </file>
-    <file name="delete.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\delete.js">
+    <file name="delete.js" path="/Users/max/Documents/GitHub/todo-list-2.0/src/modules.js/delete.js">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="3" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
@@ -27,7 +29,7 @@
       <line num="7" count="1" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
     </file>
-    <file name="saveDb.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\saveDb.js">
+    <file name="saveDb.js" path="/Users/max/Documents/GitHub/todo-list-2.0/src/modules.js/saveDb.js">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <line num="4" count="1" type="stmt"/>
       <line num="5" count="2" type="stmt"/>
@@ -36,7 +38,7 @@
       <line num="10" count="2" type="stmt"/>
       <line num="11" count="2" type="stmt"/>
     </file>
-    <file name="saveToDo.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\saveToDo.js">
+    <file name="saveToDo.js" path="/Users/max/Documents/GitHub/todo-list-2.0/src/modules.js/saveToDo.js">
       <metrics statements="7" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <line num="3" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
@@ -46,7 +48,7 @@
       <line num="9" count="1" type="stmt"/>
       <line num="13" count="1" type="stmt"/>
     </file>
-    <file name="showDb.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\showDb.js">
+    <file name="showDb.js" path="/Users/max/Documents/GitHub/todo-list-2.0/src/modules.js/showDb.js">
       <metrics statements="13" coveredstatements="10" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="2" type="stmt"/>
