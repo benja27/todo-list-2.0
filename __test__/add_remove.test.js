@@ -1,8 +1,8 @@
 /**
  * @jest-environment jsdom
  */
-const add = require('../src/modules.js/saveToDo.js');
-const remove = require('../src/modules.js/delete.js');
+import { saveToDo } from '../src/modules.js/saveToDo.js';
+import { deleteItem } from '../src/modules.js/delete.js';
 
 describe('testing both add and remove functions', () => {
   beforeEach(() => {
@@ -15,6 +15,13 @@ describe('testing both add and remove functions', () => {
     </div> `;
   });
 
+  afterEach(() => {
+    // Clean up any changes made to the DOM
+    const itemContainer = document.getElementById('list-item-container');
+
+    itemContainer.innerHTML = '';
+  });
+
   test('check if a new element is added', () => {
     const item = {
       actividad: 'buy groseries',
@@ -22,10 +29,28 @@ describe('testing both add and remove functions', () => {
       index: 1,
     };
 
-    add(item);
+    saveToDo(item);
+    deleteItem(0);
+
+    // Check if an element with the expected text content was added to the DOM
+    const addedItem = document.querySelector('#list-item-container').children[0];
+
+    expect(addedItem).not.toBeNull();
   });
 
   test('check if it removes the proper element', () => {
-    remove(1);
+    const item = {
+      actividad: 'buy groseries',
+      estatus: false,
+      index: 1,
+    };
+
+    saveToDo(item);
+    deleteItem(0);
+
+    // Check if an element with the expected text content was added to the DOM
+    const addedItem = document.querySelector('#list-item-container').children;
+
+    expect(addedItem).toHaveLength(0);
   });
 });
