@@ -129,7 +129,7 @@ Run : npm start
 
 To run tests, run the following command:
 
-Run: npm test
+Run: 'npm test' or 'npx jest'
 
 
 
