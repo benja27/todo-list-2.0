@@ -1,6 +1,7 @@
-export const updateActivity = (id,new_text, tasks ) => {
+export const updateActivity = (id, newText, tasks) => {
   const db = tasks;
-  db[id].activity = new_text;
+  db[id].activity = newText;
   return db;
-}
+};
 
+export default updateActivity;

@@ -5,6 +5,7 @@ export const clearList = () => {
     const db = JSON.parse(localStorage.getItem('to-do-list'));
     const incompleteTodos = db.filter((element) => !element.completed);
     saveDb(incompleteTodos);
+    return incompleteTodos;
   });
 };
 
