@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1683737007200" clover="3.2.0">
-  <project timestamp="1683737007200" name="All files">
-    <metrics statements="51" coveredstatements="36" conditionals="6" coveredconditionals="4" methods="14" coveredmethods="10" elements="71" coveredelements="50" complexity="0" loc="51" ncloc="51" packages="1" files="7" classes="7"/>
+<coverage generated="1683738255073" clover="3.2.0">
+  <project timestamp="1683738255073" name="All files">
+    <metrics statements="51" coveredstatements="39" conditionals="6" coveredconditionals="4" methods="14" coveredmethods="11" elements="71" coveredelements="54" complexity="0" loc="51" ncloc="51" packages="1" files="7" classes="7"/>
     <file name="changeIcons.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\changeIcons.js">
       <metrics statements="14" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
       <line num="1" count="1" type="stmt"/>
@@ -20,11 +20,11 @@
       <line num="17" count="0" type="stmt"/>
     </file>
     <file name="checkItem.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\checkItem.js">
-      <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <line num="1" count="1" type="stmt"/>
-      <line num="2" count="0" type="stmt"/>
-      <line num="3" count="0" type="stmt"/>
-      <line num="4" count="0" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
     </file>
     <file name="delete.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\delete.js">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
