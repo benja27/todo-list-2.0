@@ -129,7 +129,7 @@ Run : npm start
 
 To run tests, run the following command:
 
-N/A
+Run: npx test
 
 
 
