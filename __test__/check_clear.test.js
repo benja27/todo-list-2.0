@@ -7,7 +7,6 @@ import { clearLocal } from '../src/modules.js/clearLocal.js';
 import { localStorage } from './localStorage.js';
 
 describe('testing checkbox, update and clearAll functions', () => {
-  
   // ============================ TEST NUMBER 1 ==================================
   // =============================================================================
 
@@ -38,7 +37,6 @@ describe('testing checkbox, update and clearAll functions', () => {
 
   // ============================ TEST NUMBER 3 ==================================
   // =============================================================================
-
 
   // test if activities with status true are removed from the array
   test('checking if clearAll function works', () => {
