@@ -9,7 +9,7 @@
     "css": "npx stylelint \"**/*.{css,scss}\" --fix",
     "js": "npx eslint . --fix",
     "build": "npm run dev && xcopy dist docs /E /I",
-    "test": "jest "
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
