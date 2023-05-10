@@ -24,20 +24,20 @@ describe('testing both check and update functions', () => {
   });
   
   // test if the status of the element is changed from false to true
-  // test('check if the status of the element is changed from false to true and the oposite', () => {
-  //   let localStorage = [
-  //     { id: 1, name: 'Task 1', completed: false },
-  //     { id: 2, name: 'Task 2', completed: true },
-  //     { id: 3, name: 'Task 3', completed: false }
-  //   ]
+  test('check if the status of the element is changed from false to true and the oposite', () => {
+    let localStorage = [
+      { id: 1, name: 'Task 1', completed: false },
+      { id: 2, name: 'Task 2', completed: true },
+      { id: 3, name: 'Task 3', completed: false }
+    ]
 
-  //   let id = 0
-  //   let result = checkItem(id, localStorage)
+    let id = 0
+    let result = checkItem(id, localStorage)
 
-  //   expect(result[id].completed).toBe(true)
+    expect(result[id].completed).toBe(true)
 
 
-  // }) 
+  }) 
 
   // test if activity text is chenged when running the function
   test('checking if we can update the text of the activity', () => {
@@ -56,3 +56,6 @@ describe('testing both check and update functions', () => {
 
   })
 });
+
+
+
