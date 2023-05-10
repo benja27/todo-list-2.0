@@ -46,7 +46,7 @@ window.addEventListener('DOMContentLoaded', () => {
 container.addEventListener('click', (e) => {
   if (e.target.classList.contains('form-check-input')) {
     const { id } = e.target.dataset;
-    const db = JSON.parse(localStorage.getItem('to-do-list'));
+    const db = JSON.parse(localStorage.getItem('to-do-list'));    
     db[id].completed = !db[id].completed;
     saveDb(db);
   }
