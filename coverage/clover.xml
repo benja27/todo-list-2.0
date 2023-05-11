@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1683749081191" clover="3.2.0">
+  <project timestamp="1683749081191" name="All files">
+    <metrics statements="56" coveredstatements="44" conditionals="6" coveredconditionals="4" methods="16" coveredmethods="13" elements="78" coveredelements="61" complexity="0" loc="56" ncloc="56" packages="2" files="9" classes="9"/>
+    <package name="__test__">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="localStorage.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\__test__\localStorage.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.modules.js">
+      <metrics statements="55" coveredstatements="43" conditionals="6" coveredconditionals="4" methods="16" coveredmethods="13"/>
+      <file name="changeIcons.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\changeIcons.js">
+        <metrics statements="14" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="checkItem.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\checkItem.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="clearLocal.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\clearLocal.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+      <file name="delete.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\delete.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+      </file>
+      <file name="saveDb.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\saveDb.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+      </file>
+      <file name="saveToDo.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\saveToDo.js">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+      </file>
+      <file name="showDb.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\showDb.js">
+        <metrics statements="13" coveredstatements="10" conditionals="4" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="32" count="4" type="stmt"/>
+        <line num="33" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+      </file>
+      <file name="updateActivity.js" path="C:\Users\123123\OneDrive\Microverse\module 2\week 2\todo-list-2.0\src\modules.js\updateActivity.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
